@@ -1,0 +1,31 @@
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  width: 50%;
+  height: 420px;
+  margin: 50px auto 100px auto;
+  color: #555;
+  background-color: #f9f7f4;
+}
+.jumbotron > .lead {
+  margin-bottom: 130px;
+}
+.logo > img {
+  height: 50px;
+}
+.btn-lottery {
+  border: 1px solid #f7991e;
+  border-radius: 3px;
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #f7991e;
+  outline: none;
+}
+.btn-lottery > img {
+  height: 30px;
+}
+.btn-lottery:focus {
+  outline: none;
+}
+.header h1{font-size:70px;}
