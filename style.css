@@ -10,6 +10,9 @@
 .jumbotron > .lead {
   margin-bottom: 130px;
 }
+.logo {
+  margin-top: 40px;
+}
 .logo > img {
   height: 50px;
 }

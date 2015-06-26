@@ -7,7 +7,32 @@ function objRandom(arr) {
 
 angular.module('mktApp', []);
 angular.module('mktApp').controller('LotteryCtrl', function ($scope, $timeout) {
-  $scope.userArr = ('张三,李四,王五,王五1').split(',');
+  $scope.userArr = [
+    'Phoebe	Sun',
+    'Linhan	Huang',
+    'Zichen	Chao',
+    'Xu	Cao',
+    'huan	chen',
+    'Yanjing	Chen',
+    'zixuan	shangguan',
+    'tianlyu	zang',
+    'yiwei	sun',
+    'WANJUAN	CHEN',
+    '坛婷	林',
+    '昭琛	战',
+    '婉宁	蒋',
+    'Weiyang	Yang',
+    'WENLU	QIAO',
+    'yu	xiaochen',
+    'Xu	Sen',
+    'Tiancheng	Jia',
+    'Tingting	Lin',
+    'Jieqiong	Wu',
+    '珺璐	黄',
+    'Mengqi	Wang',
+    'binxin	li',
+    'rui	zhang',
+  ];
   $scope.userActiveArr = [];
 
   //自动去重
